@@ -11,6 +11,7 @@
     <title>Indra's Portfolio</title>
 
     <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" />
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
@@ -18,6 +19,9 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
   <body id="home">
     <!-- Navbar -->
@@ -95,19 +99,49 @@
     <!-- Akhir About -->
 
     <!-- Projects -->
+    <div class="container">
+      <h2>Dynamic Tabs</h2>
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#menu1">Menu 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#menu2">Menu 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#menu3">Menu 3</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+          <h3>HOME</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div id="menu1" class="tab-pane fade">
+          <h3>Menu 1</h3>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div id="menu2" class="tab-pane fade">
+          <h3>Menu 2</h3>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+        </div>
+        <div id="menu3" class="tab-pane fade">
+          <h3>Menu 3</h3>
+          <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        </div>
+      </div>
+    </div>
+
     <section id="projects">
       <div class="container-lg">
         <div class="row text-center mb-3">
           <div class="col">
             <h2 class="fw-bold">projects</h2>
           </div>
-        </div>
-
-        <div class="topnav text-center">
-          <a href="#motion" class="active"><h6>Motion Graphic</h6></a>
-          <a href="#graphic"><h6>Graphic Design</h6></a>
-          <a href="#video"><h6>Materi</h6></a>
-          <a href="#webg"><h6>Soal</h6></a>
         </div>
 
         <div class="row justify-content-center" id="motion">
@@ -239,12 +273,15 @@
     </section>
     <!-- Akhir Contact -->
 
+    <!-- t -->
+
     <!-- Footer -->
-    <footer class="text-center pb-4 text-white" style="background-color: #fde44c">
+    <footer class="text-center pb-4 text-white" style="background-color: #df4cfd">
       <p>Created with <i class="bi bi-heart text-white"></i> by <a class="fw-bold text-white" href="#">Indra Wijaya</a></p>
     </footer>
     <!-- Akhir Footer -->
-
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="js/jquery-3.6.0.js"></script>
     <script src="https://kit.fontawesome.com/c58350c8a8.js" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>

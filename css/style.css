@@ -31,29 +31,3 @@ section {
   text-decoration: none;
   color: black;
 }
-
-.topnav {
-  overflow: hidden;
-  background-color: transparent;
-  padding-bottom: 50px;
-  margin-top: -50;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  border-bottom: 3px solid transparent;
-}
-
-.topnav a:hover {
-  border-bottom: 3px solid #0f8e87;
-}
-
-.topnav a.active {
-  border-bottom: 3px solid #0f8e87;
-}
