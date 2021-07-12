@@ -32,8 +32,16 @@
             <li class="nav-item">
               <a class="nav-link" href="#about">about</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">projects</a>
+            
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#projects" role="button" aria-expanded="false">projects</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#motion">motion graphic</a></li>
+                <li><a class="dropdown-item" href="#videoediting">video editing</a></li>
+                <li><a class="dropdown-item" href="#graphic">graphic design</a></li>
+                
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">contact</a>
@@ -124,7 +132,7 @@
       </div>
     </div> -->
 
-    <section id="projects">
+    <section id="projects" >
       <div class="container-lg">
         <div class="row text-center mb-3">
           <div class="col">
@@ -132,7 +140,9 @@
           </div>
         </div>
 
-        <div class="row justify-content-center" id="motion">
+        <div id="motion"></div>
+        <br><br><br>
+        <div class="row justify-content-center" >
           <h4 class="row text-center mb-3 justify-content-center fw-bold" style="color: #f36756">motion graphic</h4>
 
           <div class="col-md-6 mb-3">
@@ -173,9 +183,34 @@
             </div>
           </div>
         </div>
-        <br /><br /><br />
-        <div class="row justify-content-center" id="graphic">
-          <h4 class="row text-center mb-4 mt-6 justify-content-center fw-bold" style="color: #f36756">graphic design</h4>
+
+
+        <div id="videoediting"></div>
+        <br><br><br>
+
+
+        <div class="row justify-content-center" id="">
+          <h4 class="row text-center justify-content-center fw-bold" style="color: #f36756">video editing</h4>
+
+          <div class="col-md-10 mb-3">
+            <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Red Noise Production Channel</h5>
+              <p class="card-text">Visit my YouTube Channel to see full of my video editing work.</p>
+              <a href="https://www.youtube.com/channel/UCucwxta1ySDrWP2rAUGRyXw"  class="btn btn-danger">Go to <i class="fab fa-youtube"></i></a>
+            </div>
+            <img src="img/Channrl.JPG" class="card-img-bottom" alt="...">
+          </div>
+        </div>
+
+       
+        
+        <div id="graphic"></div>
+        <br><br><br>
+
+
+        <div class="row justify-content-center" id="">
+          <h4 class="row text-center mb-4  justify-content-center fw-bold" style="color: #f36756">graphic design</h4>
 
           <div class="col-md-4 mb-3">
             <div class="card">
@@ -231,19 +266,15 @@
             </div>
           </div>
         </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
-          fill-opacity="1"
-          d="M0,192L48,176C96,160,192,128,288,106.7C384,85,480,75,576,112C672,149,768,235,864,245.3C960,256,1056,192,1152,176C1248,160,1344,192,1392,208L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
+       
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fde44c" fill-opacity="1" d="M0,0L40,32C80,64,160,128,240,160C320,192,400,192,480,176C560,160,640,128,720,101.3C800,75,880,53,960,64C1040,75,1120,117,1200,149.3C1280,181,1360,203,1400,213.3L1440,224L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+
     </section>
     <!-- Akhir Projects -->
 
     <!-- Contact -->
     <section id="contact">
+      
       <div class="container">
         <div class="row text-center">
           <div class="col">
@@ -252,23 +283,21 @@
         </div>
 
         <div class="row justify-content-center">
-          <div class="col-md-8">
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" />
-              </div>
-              <div class="mb-3">
-                <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
-              </div>
-
-              <button type="submit" class="btn text-white" style="background-color: #fde44c">Kirim</button>
-            </form>
+          <div class="col-md-5">
+            <div class="row">
+              <i class="fas fa-map-marker-alt col-md-2"></i>
+              <p class="col-md-10">Jl. Marsekal Surya Darma Tangerang, Banteng, 15127</p>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="row">
+              <i class="fas fa-envelope col-md-2"></i>
+              <a class="col-md-10" href="mailto:m.indrawijaya1@gmail.com" target="_blank" rel="noopener noreferrer">m.indrawijaya1@gmail.com</a>
+            </div>
+            <div class="row">
+              <i class="fab fa-whatsapp-square col-md-2"></i>
+              <a class="col-md-10" href="https://wa.me/6285156920756" target="_blank">+6285156920756</a>
+            </div>
           </div>
         </div>
       </div>
